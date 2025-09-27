@@ -1,0 +1,82 @@
+{
+  "name": "root",
+  "type": "directory",
+  "children": [
+    {
+      "name": "home",
+      "type": "directory",
+      "children": [
+        {
+          "name": "user",
+          "type": "directory", 
+          "children": [
+            {
+              "name": "documents",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "file1.txt",
+                  "type": "file",
+                  "content": "RG9jdW1lbnQgY29udGVudA==",
+                  "owner": "user",
+                  "permissions": "rw-r--r--"
+                },
+                {
+                  "name": "file2.txt",
+                  "type": "file",
+                  "content": "QW5vdGhlciBmaWxl",
+                  "owner": "user", 
+                  "permissions": "rw-r--r--"
+                }
+              ]
+            },
+            {
+              "name": "downloads",
+              "type": "directory",
+              "children": []
+            },
+            {
+              "name": ".bashrc",
+              "type": "file",
+              "content": "ZXhwb3J0IFBTMT0nXHUwMEEwJw==",
+              "owner": "user",
+              "permissions": "rw-r--r--"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "etc",
+      "type": "directory", 
+      "children": [
+        {
+          "name": "config.conf",
+          "type": "file",
+          "content": "c2V0dGluZz12YWx1ZQ==",
+          "owner": "root",
+          "permissions": "rw-r--r--"
+        }
+      ]
+    },
+    {
+      "name": "var",
+      "type": "directory",
+      "children": [
+        {
+          "name": "log",
+          "type": "directory",
+          "children": [
+            {
+              "name": "app.log",
+              "type": "file",
+              "content": "TG9nIGVudHJ5",
+              "owner": "root",
+              "permissions": "rw-r-----"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

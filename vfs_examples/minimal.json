@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "type": "directory",
+  "owner": "root",
+  "permissions": "rwxr-xr-x",
+  "children": [
+    {
+      "name": "file1.txt",
+      "type": "file",
+      "content": "SGVsbG8gV29ybGQh",
+      "owner": "user",
+      "permissions": "rw-r--r--"
+    },
+    {
+      "name": "README.md",
+      "type": "file", 
+      "content": "IyBWUlMgRW11bGF0b3IgRXhhbXBsZQ==",
+      "owner": "user",
+      "permissions": "rw-r--r--"
+    }
+  ]
+}

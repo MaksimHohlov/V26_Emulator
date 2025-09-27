@@ -1,0 +1,42 @@
+{
+  "name": "root",
+  "type": "directory", 
+  "children": [
+    {
+      "name": "system",
+      "type": "directory",
+      "children": [
+        {
+          "name": "bin",
+          "type": "directory",
+          "children": [
+            {"name": "ls", "type": "file", "content": "c2NyaXB0", "owner": "root", "permissions": "rwxr-xr-x"},
+            {"name": "cd", "type": "file", "content": "c2NyaXB0", "owner": "root", "permissions": "rwxr-xr-x"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "users",
+      "type": "directory", 
+      "children": [
+        {
+          "name": "alice",
+          "type": "directory",
+          "children": [
+            {"name": "projects", "type": "directory", "children": []},
+            {"name": "notes.txt", "type": "file", "content": "Tm90ZXM=", "owner": "alice", "permissions": "rw-------"}
+          ]
+        },
+        {
+          "name": "bob", 
+          "type": "directory",
+          "children": [
+            {"name": "music", "type": "directory", "children": []},
+            {"name": "docs", "type": "directory", "children": []}
+          ]
+        }
+      ]
+    }
+  ]
+}
