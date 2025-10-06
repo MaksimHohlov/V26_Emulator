@@ -3,4 +3,3 @@ cd home
 ls -la
 date
 help
-exit
