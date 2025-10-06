@@ -2,4 +2,5 @@ ls
 cd home
 ls -la
 date
+mv home startup_script.txt
 help
